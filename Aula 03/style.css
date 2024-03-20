@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* Certifique-se de que a barra de navegação fique sobre outros elementos */
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 80px 20px 20px;
+
+}
+
+main p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.btn{
+    background-color: #666;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: #666;
+}
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-4 {
+    flex: 4;
+    padding: 20px;
+}
+
+.col-8 {
+    flex: 8;
+    padding: 20px;
+}
